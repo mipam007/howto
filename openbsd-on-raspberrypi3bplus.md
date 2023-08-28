@@ -24,7 +24,7 @@ sudo dd if=/Users/${USER}/Downloads/install73.img of=/dev/rdisk6 bs=1m
 ```screen /dev/tty.usbserial-1410 115200```
 #### Turn on RPI3.
 #### Install OpenBSD.
-#### Optional: Move installation from USB flash to Micro SD card.
+#### Move installation from USB flash to Micro SD card.
 ```sudo dd if=/dev/rdisk7 of=/dev/rdisk6 bs=1m```
 ### Sources:
 OpenBSD installation manual on ARM64.[^1]

@@ -58,15 +58,21 @@ install                                     # use new disk e.g sd2 during instal
 ### Sources:
 OpenBSD installation manual on ARM64.[^1]
 [^1]: https://ftp.openbsd.org/pub/OpenBSD/7.3/arm64/INSTALL.arm64
+
 Get OpenBSD image.[^2]
 [^2]: https://ftp.openbsd.org/pub/OpenBSD/7.3/arm64/install73.img
+
 Raspberry Pi GPIO and the 40-pin Header (pinout) manual.[^3]
 [^3]: https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#raspberry-pi-3-model-b
+
 One of the possible jumper wires e-shop.[^4]
 [^4]: https://www.gme.cz/v/1507928/zyj-w3-f-f-dupont-propojovaci-vodice-zasuvka-zasuvka-40-zil
+
 One of the possible USB-UART adapter.[^5]
 [^5]: https://www.gme.cz/v/1508334/prevodnik-usb-uart-s-plx2303hx
+
 One of the possible USB-A to USB-C adapter.[^6]
 [^6]: https://www.alza.cz/alzapower-usb-c-m-na-usb-a-3-0-f-d5663799.htm
+
 OpenBSD fdisk MBR.[^7]
 [^7]: https://man.openbsd.org/fdisk#i

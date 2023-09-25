@@ -1,1 +1,8 @@
-b
+Mac OS X Time Machine Backup to old NAS (without Time Machine Bonjour support)
+
+You have SMB share mounted e.g. on /Volumes/bak/
+hdiutil create -size 1g -nospotlight -volname "TMTesting" -fs "Case-sensitive Journaled HFS+" -verbose /Volumes/bak/TMTesting.sparsebundle
+hdiutil attach /Volumes/bak/TMTesting.sparsebundle
+tmutil enable
+tmutil setdestination -a "/Volumes/TMTesting/"
+tmutil startbackup

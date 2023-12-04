@@ -1,0 +1,5 @@
+macOS sudo touch ID authentication
+
+sudo cp /etc/pam.d/sudo_local.template /etc/pam.d/sudo_local
+vim /etc/pam.d/sudo_local
+auth       sufficient     pam_tid.so
